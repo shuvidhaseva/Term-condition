@@ -1,44 +1,109 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms and Conditions - Shuvidha Seva</title>
+    <title>Shuvidha Seva - Terms & Conditions</title>
+    <!-- Fonts for consistency -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: auto; color: #444; background-color: #f9f9f9; }
-        .card { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        h1 { color: #673AB7; text-align: center; }
-        h2 { color: #512DA8; border-left: 4px solid #673AB7; padding-left: 10px; margin-top: 20px; }
-        p, li { margin-bottom: 10px; }
-        .highlight { font-weight: bold; color: #d32f2f; }
+        /* Replicating the essential CSS variables from the main app */
+        :root {
+            --primary-color: #673AB7; /* Deep Purple */ 
+            --danger: #D84315; /* Darker Red/Orange */
+            --text-color: #212529; /* Dark text */
+            --light-text: #6c757d; /* Light text */
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: var(--text-color);
+            padding: 20px;
+            max-width: 800px; /* Optimal width for reading */
+            margin: 0 auto;
+            background-color: #ffffff; /* White background */
+        }
+
+        h1 {
+            color: var(--primary-color);
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 25px;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+        }
+
+        /* Styling for the content div */
+        .tnc-content {
+            font-size: 0.9em; 
+            line-height: 1.6;
+            padding: 0 10px;
+        }
+
+        .tnc-content h3 {
+            color: var(--primary-color);
+            margin-top: 0;
+            font-size: 1.2em;
+        }
+        
+        /* Matching the specific heading styles */
+        .tnc-content h4 {
+            color: var(--primary-color); 
+            font-weight: 700; 
+            margin-top: 25px; 
+            margin-bottom: 5px;
+            font-size: 1em;
+        }
+        
+        .tnc-footer {
+            text-align: center; 
+            margin-top: 40px; 
+            font-size: 0.8em; 
+            color: var(--light-text);
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
     </style>
 </head>
 <body>
-    <div class="card">
-        <h1>Terms and Conditions</h1>
+
+    <h1>Terms & Conditions</h1>
+
+    <div class="tnc-content">
+        <!-- UPDATED CONTENT START (Hindi) - Exact copy from source file -->
+        
+        <h3 style="color:var(--primary-color); margin-top:0;">Terms and Conditions</h3>
         <p><strong>Shuvidha Seva</strong> app ka istemal karne ke liye aapko niche diye gaye niyamo (terms) ka palan karna hoga:</p>
 
-        <h2>1. Minimum Order Rule</h2>
-        <p>App se order karne ke liye kam se kam <span class="highlight">3 items</span> aur kul rashi <span class="highlight">₹50.00</span> se zyada honi chahiye.</p>
+        <h4>1. Minimum Order Rule</h4>
+        <p>App se order karne ke liye kam se kam <strong style="color:var(--danger);">3 items</strong> aur kul rashi <strong style="color:var(--danger);">₹50.00</strong> se zyada honi chahiye।</p>
 
-        <h2>2. Delivery Charges</h2>
-        <p>Har order par <span class="highlight">₹10 fixed delivery charge</span> liya jayega, chahe order kitna bhi bada ho.</p>
+        <h4>2. Delivery Charges</h4>
+        <p>Har order par <strong style="color:var(--danger);">₹10 fixed delivery charge</strong> liya jayega, chahe order kitna bhi bada ho।</p>
+        
+        <h4>3. Per Item Quantity Rule (Max 5)</h4>
+        <p>Aap ek hi product ki zyada se zyada <strong style="color:var(--danger);">5 quantity</strong> order kar sakte hain।</p>
 
-        <h2>3. Account Responsibility</h2>
-        <p>Aap apne mobile number aur password ki suraksha ke liye khud zimmedar hain. Galat jankari dene par account band kiya ja sakta hai.</p>
+        <h4>4. Account Responsibility</h4>
+        <p>Aap apne mobile number aur password ki suraksha ke liye khud zimmedar hain। Galat jankari dene par account band kiya ja sakta hai।</p>
 
-        <h2>4. Delivery Time</h2>
-        <p>Hum koshish karte hain ki order jaldi deliver ho, lekin mausam ya traffic ki wajah se deri ho sakti hai.</p>
+        <h4>5. Delivery Time</h4>
+        <p>Hum koshish karte hain ki order jaldi deliver ho, lekin mausam ya traffic ki wajah se deri ho sakti hai।</p>
 
-        <h2>5. Order Cancellation</h2>
-        <p>Order place hone ke baad agar humne saaman pack kar diya hai, toh cancellation swikar nahi kiya jayega.</p>
+        <h4>6. Order Cancellation</h4>
+        <p>Order place hone ke baad agar humne saaman pack kar diya hai, toh cancellation swikar nahi kiya jayega।</p>
 
-        <h2>6. Contact Us</h2>
-        <p>Kisi bhi shikayat ke liye app ke support section mein message karein.</p>
-
-        <div style="text-align: center; margin-top: 30px; font-size: 12px; color: #888;">
-            © 2026 Shuvidha Seva. All Rights Reserved.
+        <h4>7. Contact Us</h4>
+        <p>Kisi bhi shikayat ya sawal ke liye aap humein <strong style="color:var(--primary-color);">shuvidhaseva1@gmail.com</strong> par email kar sakte hain।</p>
+        
+        <div class="tnc-footer">
+            &copy; 2026 Shuvidha Seva. All Rights Reserved.
         </div>
+        <!-- UPDATED CONTENT END -->
     </div>
+
 </body>
 </html>
